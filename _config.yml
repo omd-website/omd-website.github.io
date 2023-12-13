@@ -1,0 +1,13 @@
+# Site settings
+title: onemandown.nl
+email: info@onemandown.nl
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+instagram_username: _onemandown_
+youtube_username: channel/UCYQJ9AiDv1AgSe73_Cw9iiw
+spotify_username: 5Ub2ORDMMnsvYlTmzECAiB
+
+# Build settings
+markdown: kramdown

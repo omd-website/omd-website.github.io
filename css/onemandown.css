@@ -1,0 +1,96 @@
+.no-padding {
+  padding: 5px;
+}
+
+.image-right {
+  width: 100%;
+}
+
+@media (min-width: 1000px){
+  .smallercontainer {
+			width: 970px;
+  }
+}
+
+@media (min-width: 1230px){
+  .image-right {
+			width: 800px;
+  }
+}
+
+.instagram-color{
+  background:linear-gradient(45deg, #fd1d1d, #e1306c, #c13584, #833ab4, #5851db, #405de6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.white{
+  border-color: white;
+}
+
+.black{
+  border-color: black;
+}
+.nav-padding{
+  height:50px;
+}
+/* Youtube iframe full size */
+
+.yt-container{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.yt{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Hyperlinks */
+
+.hyperlink{
+  padding-left:10px;
+  padding-right:10px;
+  font-size: 2.5em;
+}
+.hyperlink-section{
+  float: right;
+  padding-left:15px;
+}
+
+@media (max-width: 910px){
+  .hyperlink-section {
+			display: none;
+  }
+}
+
+
+.hyperlink-mobile{
+  display: none;
+  text-align: center;
+}
+
+@media (max-width: 910px){
+  .hyperlink-mobile {
+			display: inherit;
+  }
+}
+
+
+/* Nav-bar moet niet verdwijnen */
+.navbar-default{
+  background-color: white;
+  border-color: rgba(34, 34, 34, 0.5);
+}
+.navbar-default .navbar-header .navbar-brand{
+  color: #D70B4A;
+}
+.navbar-default .nav > li > a{
+  color: #222;
+}
