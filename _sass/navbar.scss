@@ -1,0 +1,81 @@
+.instagram-color{
+    background:linear-gradient(45deg, #fd1d1d, #e1306c, #c13584, #833ab4, #5851db, #405de6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-padding{
+    height:50px;
+}
+
+.hyperlink{
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 2.5em;
+}
+    .hyperlink-section{
+    float: right;
+    padding-left:15px;
+}
+
+@media (max-width: 910px){
+    .hyperlink-section {
+        display: none;
+    }
+}
+
+
+.hyperlink-mobile{
+    display: none;
+    text-align: center;
+}
+
+@media (max-width: 910px){
+    .hyperlink-mobile {
+        display: inherit;
+    }
+}
+
+// Navigation
+.navbar-default {
+    background-color: $theme-ash;
+    border-color: $theme-tar;
+    .navbar-header .navbar-brand{
+        img{
+            @include transition-all;
+            height: 100%;
+        }
+        &.brand-name img{
+            height: 90%;
+        }
+    }
+    .nav {
+        > li {
+            > a {
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 13px;
+                color: $theme-tar;
+                &:hover {
+                    color: $theme-gerrood;
+                }
+            }
+            &.active {
+                > a {
+                    color: $theme-gerrood!important;
+                    background-color: transparent;
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        &.affix {
+            .navbar-header .navbar-brand.brand-name img{
+                height: 80%;
+            }
+        }
+    }
+}

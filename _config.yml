@@ -11,3 +11,6 @@ spotify_username: 5Ub2ORDMMnsvYlTmzECAiB
 
 # Build settings
 markdown: kramdown
+
+sass:
+  sass_dir: _sass

@@ -1,0 +1,101 @@
+body {
+    font-family: 'Okine Sans';
+}
+
+hr {
+    border-width: 3px;
+    max-width: 50px;
+}
+
+.bg-gerrood {
+    background-color: $theme-gerrood;
+    color: $theme-ash;
+    hr{
+        border-color: $theme-ash;
+    }
+}
+
+.bg-tar {
+    background-color: $theme-tar;
+    color: $theme-ash;
+    hr{
+        border-color: $theme-gerrood;
+    }
+}
+
+.bg-ash {
+    background-color: $theme-ash;
+    color: $theme-tar;
+    hr{
+        border-color: $theme-gerrood;
+    }
+}
+
+section {
+    padding: 100px 0;
+}
+
+.no-padding {
+    padding: 5px;
+}
+
+
+// Extras
+// -- Highlight Color Customization
+::-moz-selection {
+    color: $theme-ash;
+    text-shadow: none;
+    background: $theme-tar;
+}
+
+::selection {
+    color: $theme-ash;
+    text-shadow: none;
+    background: $theme-tar;
+}
+
+img::selection {
+    color: $theme-ash;
+    background: transparent;
+}
+
+img::-moz-selection {
+    color: $theme-ash;
+    background: transparent;
+}
+
+body {
+    -webkit-tap-highlight-color: $theme-tar;
+}
+
+.image-right {
+    width: 100%;
+}
+
+@media (min-width: 1000px){
+    .smallercontainer {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1230px){
+    .image-right {
+        width: 800px;
+    }
+}
+
+
+a {
+    @include transition-all;
+    color: $theme-gerrood;
+    &:hover,
+    &:focus {
+        color: darken($theme-gerrood, 10%);
+    }
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
