@@ -31,6 +31,23 @@ hr {
     }
 }
 
+.text-gerroord {
+    color: $theme-gerrood;
+}
+
+.text-ash {
+    color: $theme-ash;
+}
+
+.text-tar {
+    color: $theme-tar;
+}
+
+.ticket-info:hover{
+    @include transition-all;
+    font-size: 22px;
+    color: darken($theme-ash, 10%);
+}
 section {
     padding: 100px 0;
 }
@@ -39,6 +56,19 @@ section {
     padding: 5px;
 }
 
+a {
+    @include transition-all;
+    color: $theme-gerrood;
+    &:hover,
+    &:focus {
+        color: darken($theme-gerrood, 10%);
+    }
+}
+
+h2 {
+    font-family: 'Aileron';
+    font-weight: bold;
+}
 
 // Extras
 // -- Highlight Color Customization
@@ -82,20 +112,4 @@ body {
     .image-right {
         width: 800px;
     }
-}
-
-
-a {
-    @include transition-all;
-    color: $theme-gerrood;
-    &:hover,
-    &:focus {
-        color: darken($theme-gerrood, 10%);
-    }
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
 }

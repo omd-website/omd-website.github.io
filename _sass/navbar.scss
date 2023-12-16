@@ -45,15 +45,21 @@
             @include transition-all;
             height: 100%;
         }
-        &.brand-name img{
-            height: 90%;
+        &.brand-name{
+            &:hover{
+                opacity: 0.7;
+            }
+            img{
+                height: 90%;
+            }
         }
     }
     .nav {
         > li {
             > a {
+                font-family: 'Aileron';
                 text-transform: uppercase;
-                font-weight: 700;
+                font-weight: 900;
                 font-size: 13px;
                 color: $theme-tar;
                 &:hover {
