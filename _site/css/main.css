@@ -123,6 +123,12 @@ hr {
 .bg-ash hr {
   border-color: #B22727;
 }
+.bg-ash .modal-footer {
+  border-color: #090909;
+}
+.bg-ash .modal-header {
+  border-color: #090909;
+}
 
 .text-gerrood {
   color: #B22727;
@@ -134,14 +140,6 @@ hr {
 
 .text-tar {
   color: #090909;
-}
-
-.ticket-info:hover {
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-  font-size: 22px;
-  color: #b2c5ba;
 }
 
 section {
@@ -162,9 +160,53 @@ a:hover, a:focus {
   color: #881e1e;
 }
 
-h2 {
+h2, h5 {
   font-family: "Aileron";
   font-weight: bold;
+}
+
+.gig-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-info {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  padding: 10px;
+  font-size: 22px;
+}
+.ticket-info:hover {
+  font-size: 30px;
+  color: #b2c5ba;
+}
+
+.close-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.close-icon:hover {
+  cursor: pointer;
+  color: #565656;
+}
+
+.info-modal {
+  text-align: left;
+}
+
+button {
+  background-color: #B22727;
+  color: #CFDBD4;
+  border-color: #090909;
+  border: 0;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+button:hover {
+  background-color: #9d2222;
 }
 
 ::-moz-selection {

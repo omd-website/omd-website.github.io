@@ -5,21 +5,51 @@
         <h2>NEXT GIGS:</h2>
         <hr>
 
-        <h4> JAN 12 |🕚20:00 <br> ALVERNA | DE MARKIES 
-          <!-- <i class="ticket-info fa-solid fa-circle-info wow bounceIn" data-wow-delay=".1s"></i> -->
-        </h4>
-        
-        <h4> JAN 14 |🕚13:30 <br> UDEN | DE PUL </h4> 
-        
-        <h4> JAN 19 |🕚21:00 <br> NIJMEGEN | LIVE @ RADIO RN7 </h4>
-        
-        <h4> JAN 25 |🕚20:30 <br> ZWOLLE | CAFE KOOS </h4>
-        
-        <h4> JAN 26 |🕚20:00 <br> WYCHEN | DE MOZAIEK </h4>
+        {% for gig in site.data.gigs %}
+          <div class="gig-container">
+            <h4> {{ gig.date }} | 🕚 {{ gig.time }} <br> {{ gig.place }} | {{ gig.venue }} </h4>
+            {% if gig.artists %}
+            <i class="ticket-info fa-solid fa-circle-info wow bounceIn" data-toggle="modal" data-target="#{{forloop.index}}-modal" data-wow-delay=".1s"></i>
+          </div>
+        <!-- Modal -->
+        <div class="modal fade" id="{{forloop.index}}-modal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-ash">
+              <div class="modal-header">
+                <div style="position: relative">
+                  <h5 class="modal-title"> {{ gig.artists }}</h5>
+                  <i class="fa-solid fa-xmark wow bounceIn close-icon" data-dismiss="modal"></i>
+                </div>
+              </div>
+              <div class="modal-body info-modal">
+                  <b> Adres:</b><br>
+                  {{ gig.venue }} {% if gig.adress %} - {% endif %} {{ gig.adress }}<br>
+                  <br>
+                  <b>Tickets:</b><br>
+                  Prijs: {{ gig.price }}<br>
+                  {% unless gig.ticket-link == '' %} {{ gig.ticket-link }} <br>{% endunless %}
+                  {% unless gig.price == 'Entree gratis' %} Kaartverkoop is {% unless gig.aan-deur %} niet {% endunless %} mogelijk aan de deur<br> {% endunless%}
+                  <br>
+                  <b>Programma:</b><br>
+                  {% for item in gig.programma %}
+                    {{ item }} <br>
+                  {% endfor %}
+              </div>
+              <div class="modal-footer">
+                <button type="button" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
       </div>
       <div class=col-md-8>
         <img style="width:100%;" src="assets/img/2023-07-de-pul.jpg"/>
       </div>
   	</div>
   </div>
+
+  
 </section>
+

@@ -30,6 +30,14 @@ hr {
     hr{
         border-color: $theme-gerrood;
     }
+
+    .modal-footer{
+        border-color: $theme-tar
+    }
+
+    .modal-header{
+        border-color: $theme-tar
+    }
 }
 
 .text-gerrood {
@@ -42,12 +50,6 @@ hr {
 
 .text-tar {
     color: $theme-tar;
-}
-
-.ticket-info:hover{
-    @include transition-all;
-    font-size: 22px;
-    color: darken($theme-ash, 10%);
 }
 section {
     padding: 100px 0;
@@ -66,9 +68,51 @@ a {
     }
 }
 
-h2 {
+h2, h5 {
     font-family: 'Aileron';
     font-weight: bold;
+}
+
+.gig-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-info{
+    @include transition-all;
+    padding: 10px;
+    font-size: 22px;
+    &:hover{
+        font-size: 30px;
+        color: darken($theme-ash, 10%);
+    }
+}
+
+.close-icon {
+    position: absolute;
+    right: 0;
+    top : 0;
+    &:hover{
+        cursor: pointer;
+        color: lighten($theme-tar, 30%);
+    }
+}
+
+.info-modal{
+    text-align: left;
+}
+
+button{
+    background-color: $theme-gerrood;
+    color: $theme-ash;
+    border-color: $theme-tar;
+    border: 0;
+    border-radius: 4px;
+    padding: 4px 10px;
+    &:hover{
+        background-color: darken($theme-gerrood, 5%);
+    }
 }
 
 // Extras
