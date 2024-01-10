@@ -1,6 +1,18 @@
+- artists: ONE MAN DOWN
+  venue: De Pul
+  date: 25 Feb
+  place: Uden
+  time: 'Tijd volgt'
+  adress: Kapelstraat 13, 5401 EC Uden
+  aan-deur: true
+  ticket-link: ''
+  price: €5,-
+  programma:
+  - Programma volgt binnenkort
+
 - artists: ONE MAN DOWN + Silver Stallion
   venue: De Markies
-  date: Uitgesteld
+  date: 1 Maart
   place: Alverna
   time: '19:30'
   adress: Graafseweg 600, 6603 CM Wijchen
@@ -17,24 +29,17 @@
   - 23:15 - After party
 
 - artists: ONE MAN DOWN
-  venue: De Pul
-  date: Uitgesteld
-  place: Uden
-  time: '13:30'
-  adress: Kapelstraat 13, 5401 EC Uden
+  venue: Cafe Koos
+  date: 28 Maart
+  place: Zwolle
+  time: '20:30'
+  adress: Nieuwe Markt 11, 8011 PE Zwolle
   aan-deur: true
-  ticket-link: 'https://www.livepul.com/agenda/one-man-down-ep-release/'
-  price: €5,-
+  ticket-link: ''
+  price: Entree gratis
   programma:
-  - 13:30 - Zaal open
-  - 14:30 - Aanvang
-  - De rest van het programma volgt binnenkort
-
-- venue: Live @ Radio RN7
-  date: Uitgesteld
-  place: Nijmegen
-  time: '21:00'
-
+  - Programma volgt binnenkort
+  
 # - artists: ONE MAN DOWN
 #   venue: De Mozaiek
 #   date: Jan 26
@@ -46,14 +51,7 @@
 #   programma:
 #   - Programma volgt binnenkort
 
-- artists: ONE MAN DOWN
-  venue: Cafe Koos
-  date: 28 Maart
-  place: Zwolle
-  time: '20:30'
-  adress: Nieuwe Markt 11, 8011 PE Zwolle
-  aan-deur: true
-  ticket-link: ''
-  price: Entree gratis
-  programma:
-  - Programma volgt binnenkort
+# - venue: Live @ Radio RN7
+#   date: Uitgesteld
+#   place: Nijmegen
+#   time: '21:00'
