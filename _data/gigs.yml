@@ -2,13 +2,17 @@
   venue: De Pul
   date: 25 Feb
   place: Uden
-  time: 'Tijd volgt'
+  time: '13:30'
   adress: Kapelstraat 13, 5401 EC Uden
   aan-deur: true
-  ticket-link: ''
+  ticket-link: 'https://www.livepul.com/agenda/one-man-down-ep-release-1/'
   price: €5,-
   programma:
-  - Programma volgt binnenkort
+  - 13:30 - Zaal open
+  - 14:30 - Alverman
+  - 15:30 - Pauze
+  - 16:00 - ONE MAN DOWN
+  - 17:00 - After party
 
 - artists: ONE MAN DOWN + Silver Stallion
   venue: De Markies
