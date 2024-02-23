@@ -43,6 +43,24 @@
   price: Entree gratis
   programma:
   - Programma volgt binnenkort
+
+- artists: ONE MAN DOWN
+  venue: Merleyn
+  date: 2 April
+  place: Nijmegen
+  time: '20:00'
+  adress: Hertogstraat 13, 6511 RV Nijmegen
+  aan-deur: true
+  ticket-link: ''
+  price: Prijs volgt binnenkort
+  programma:
+  - 20:00 - Zaal open
+  - 21:00 - Felien
+  - 21:30 - Pauze
+  - 21:50 - The see
+  - 22:20 - Pauze
+  - 22:40 - ONE MAN DOWN
+  - 23:10 - Afterparty
   
 # - artists: ONE MAN DOWN
 #   venue: De Mozaiek

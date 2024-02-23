@@ -55,6 +55,11 @@ section {
     padding: 100px 0;
 }
 
+.tiktok {
+    padding: 3px;
+    border-radius: 10px;
+}
+
 .no-padding {
     padding: 5px;
 }
@@ -106,7 +111,6 @@ h2, h5 {
 button{
     background-color: $theme-gerrood;
     color: $theme-ash;
-    border-color: $theme-tar;
     border: 0;
     border-radius: 4px;
     padding: 4px 10px;
