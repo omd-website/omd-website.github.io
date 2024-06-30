@@ -1,29 +1,35 @@
 - artists: ONE MAN DOWN
-  venue: Cafe Koos
-  date: 28 Maart
-  place: Zwolle
-  time: '20:30'
-  adress: Nieuwe Markt 11, 8011 PE Zwolle
+  venue: Cafe Dollars
+  date: 4 Juli
+  place: Nijmegen
+  time: '21:00'
+  adress: Grotestraat 9, 6511 VB Nijmegen
   aan-deur: true
   ticket-link: ''
   price: Entree gratis
   programma:
-  - Programma volgt binnenkort
+  - We spelen 3 sets van 30 minuten met daartussen steeds een pauze
 
 - artists: ONE MAN DOWN
-  venue: Merleyn
-  date: 2 April
+  venue: Cafe Samson
+  date: 15 Juli
   place: Nijmegen
-  time: '20:00'
-  adress: Hertogstraat 13, 6511 RV Nijmegen
+  time: '22:00'
+  adress: Houtstraat 4, 6511 JN Nijmegen
   aan-deur: true
   ticket-link: ''
-  price: Prijs volgt binnenkort
+  price: Entree gratis
   programma:
-  - 20:00 - Zaal open
-  - 21:00 - Felien
-  - 21:30 - Pauze
-  - 21:50 - The see
-  - 22:20 - Pauze
-  - 22:40 - ONE MAN DOWN
-  - 23:10 - Afterparty
+  - We spelen 3 sets van 45 minuten met daartussen steeds een pauze
+
+- artists: ONE MAN DOWN
+  venue: Cafe Samson
+  date: 19 Juli
+  place: Nijmegen
+  time: '22:00'
+  adress: Houtstraat 4, 6511 JN Nijmegen
+  aan-deur: true
+  ticket-link: ''
+  price: Entree gratis
+  programma:
+  - We spelen 3 sets van 45 minuten met daartussen steeds een pauze
