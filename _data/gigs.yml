@@ -1,14 +1,14 @@
-- artists: ONE MAN DOWN
-  venue: Cafe Dollars
-  date: 24 Oktober
-  place: Nijmegen
-  time: '23:00'
-  adress: Grotestraat 9, 6511 VB Nijmegen
-  aan-deur: true
-  ticket-link: ''
-  price: Entree gratis
-  programma:
-  - '20:00 Cafe open.'
-  - ''
-  - 'Als eerste speelt de band Gunz of Boston'
-  - 'Wij beginnen rond 23:00 en spelen 2 sets van 45 minuten met daartussen een pauze.'
+# - artists: ONE MAN DOWN
+#   venue: Cafe Dollars
+#   date: 24 Oktober
+#   place: Nijmegen
+#   time: '23:00'
+#   adress: Grotestraat 9, 6511 VB Nijmegen
+#   aan-deur: true
+#   ticket-link: ''
+#   price: Entree gratis
+#   programma:
+#   - '20:00 Cafe open.'
+#   - ''
+#   - 'Als eerste speelt de band Gunz of Boston'
+#   - 'Wij beginnen rond 23:00 en spelen 2 sets van 45 minuten met daartussen een pauze.'
